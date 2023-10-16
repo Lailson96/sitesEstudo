@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <meta name="viewport" content="device-width, initial-scale=1"><!--otimiza para disp. móveis-->
+    <style>
+        body{
+            background-image: url('./files/background.webp');
+            
+            text-align: center;
+            
+        }
+    </style>
 </head>
 <body>
-    <h1>Concorra a um milhão</h1>
+    
+    <h1 style="
+        font-size: 50px"
+        >Concorra a um milhão</h1>
     <form>
         <input type="text" placeholder="Nome" required> <br>
         <input type="radio" name="genero" /> Masculino<br>
@@ -17,7 +29,7 @@
             <option>Vc gosta de milho</option>
             <option>Nenhuma</option>
         </select> <br>
-        <textarea placeholder="Escreva pq vc deve ganhar o milhão" rows="10" required></textarea> <br>
+        <textarea placeholder="Escreva pq vc deve ganhar o milhão" rows="20" required></textarea> <br>
         <input type="file"/> <br>
         <button type="submit">Confirma </button>
     
