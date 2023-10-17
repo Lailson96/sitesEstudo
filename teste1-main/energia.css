@@ -32,13 +32,11 @@ div{
 footer{
     margin-left: 500px;
 }
-h3{
-    font-weight: normal;
-    color: orangered;
-    text-decoration: none;
-    font-weight: normal;">
+
+#link{
+    margin: auto;
 }
-h3 a{
+#link a{
     color: orangered;
     text-decoration: none;
     font-weight: normal;
@@ -46,9 +44,10 @@ h3 a{
     transition-duration: 3s;
     transition-timing-function: step-end;
     transition-delay: 1s;
+    margin: auto;
 
 }
-h3 a:hover{
+#link a:hover{
     text-decoration: underline;
 }
 h1{
