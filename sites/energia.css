@@ -1,0 +1,55 @@
+
+header{
+    color: white;
+    background:#4c4a48; 
+    text-align: center;
+    background: rgb(43, 40, 40);
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    top: 0;
+    right: 0;  
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;   
+}
+
+
+
+#link a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: normal;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: step-end;
+    transition-delay: 1s;
+    
+
+}
+#link a:hover{
+    text-decoration: underline;
+}
+
+
+#introducao{
+    margin:80px 100px 0 100px;
+
+}
+
+#referenciaIMG{   
+    font-size: small;   
+}
+
+#txt{
+    margin:10px 350px 0 350px;
+}
